@@ -1,0 +1,129 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;  
+  }
+  
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: url(images/images\ \(0\).jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  .container {
+      max-width: 1200px;
+      margin: 0 auto;
+  } 
+  
+  .header {
+      display: flex;
+      position: relative;
+      min-height: 100vh;
+      align-items: center;
+  }
+  
+  .menu {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .logo{
+      color: #000000;
+      font-size: 25px;
+      font-weight: bold;
+  }
+  
+  .menu .navbar ul li {
+      position: relative;
+      float: left;
+  }
+  
+  .menu .navbar ul li a {
+      font-size: 18px;
+      padding: 20px;
+      color: #000000;
+      display: block;
+      font-weight: bold;
+  
+      
+  }
+  
+  .menu .navbar ul li a:hover {
+      color: #ffffff;
+      margin: 10px 10px;
+      padding: 5px 5px;
+      border-radius: 20px;
+  
+  }
+  
+  .icons a {
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    border: 5px solid #fff;
+    border-radius: 100%;
+    padding: 12px;
+    margin: 2px ;
+    font-size: 25px;
+    transition: .3s;
+  }
+  
+  .icons a:hover {
+      color: #000000;
+  }
+  #menu {
+      display: none;
+  }
+  
+  .menu-icono {
+      width: 250px;
+  }
+  
+  .menu label {
+      cursor: pointer;
+      display: none;
+  }
+
+  .img{
+    width: 10%;
+    height: 10%;
+  }
+
+  .images {
+    width: 1360px;
+    height: 380px;
+    position: absolute;
+    
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    
+}
+

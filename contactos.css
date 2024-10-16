@@ -1,0 +1,138 @@
+*{
+  background-color: rgb(174, 0, 255);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #ec1111;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #000000;
+    display: block;
+    font-weight: bold;
+
+    
+}
+
+.menu .navbar ul li a:hover {
+    color: #1701a5;
+    margin: 10px 10px;
+    padding: 5px 5px;
+    border-radius: 20px;
+
+}
+
+.icons{
+    display: flex;
+  }
+  
+  .icons i {
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    border: 5px solid #207b09;
+    border-radius: 100%;
+    padding: 12px;
+    margin: 2px ;
+    font-size: 25px;
+    transition: .3s;
+  }
+  
+  .icons i:hover {
+      color: hsl(203, 100%, 50%);
+  }
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 250px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.section{
+    background-color: rgb(243, 243, 243);
+    color: #b2b806;
+    padding: 50px 20px;
+}
+
+.section.contenido {
+    max-width: 1100px;
+    margin: auto;
+}
+.section h1{
+    font-size: 48px;
+    font-family: 'righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.section .contenido p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.section .contenido p span{
+    color: rgb(43, 0, 83);
+    font-weight: bold;
+}
+.section .fila{
+    display: flex;
+}
+.section .fila .col{
+    width: 50%;
+}
+.section .fila .col h2{
+    font-size: 28px;
+    font-family: 'rigteous';
+    margin-bottom: 25px;   
+}
+.section .fila .col ul{
+    list-style: none;
+}
+.section .fila .col ul li{
+    margin: 12px 0;
+}
+.section .fila .col ul li strong{
+    display: inline-blok;
+    color: rgb(92, 0, 81);
+    width: 130px;
+}
+.section .fila .col ul li span{
+    background-color: rgb(255, 24, 232);
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.section .fila .col ul .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
