@@ -61,7 +61,8 @@
   }
   
   .menu .navbar ul li a:hover {
-      color: #919a9b;
+      color: #aeb5b6;
+      background-color: #3b3d3d;
       margin: 10px 10px;
       padding: 5px 5px;
       border-radius: 20px;
@@ -75,7 +76,7 @@
     color: #000000;
     display: inline-block;
     text-decoration: none;
-    border: 5px solid #000000;
+    border: 5px solid #3d3d3d;
     border-radius: 100%;
     padding: 12px;
     margin: 2px ;
@@ -84,7 +85,7 @@
   }
   
   .icons i:hover {
-      color: hsl(0, 100%, 95%);
+      color: hsl(0, 6%, 58%);
   }
   
   #menu {

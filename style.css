@@ -61,6 +61,7 @@ body {
 
 .menu .navbar ul li a:hover {
     color: #099FA6;
+    background-color: #FFFFFF;
     margin: 10px 10px;
     padding: 5px 5px;
     border-radius: 20px;
@@ -109,7 +110,8 @@ body {
     line-height: 80px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #266371;
+    color: #c2f4ff;
+    opacity: #ffffff;
     margin-bottom: 25px;
     font-family: 'Roboto Condensed', sans-serif;
 }

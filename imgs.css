@@ -58,7 +58,8 @@
   }
   
   .menu .navbar ul li a:hover {
-      color: #ffffff;
+      color: #141212;
+      background-color: rgb(101, 136, 242);
       margin: 10px 10px;
       padding: 5px 5px;
       border-radius: 20px;
